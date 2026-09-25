@@ -20,7 +20,7 @@ class ChatRequest(BaseModel):
 
 # Microsoft Phi-3 Medium Serverless Inference Endpoints API Destination
 HF_API_URL = "https://huggingface.co"
-HF_TOKEN = os.getenv("HF_TOKEN")
+HF_TOKEN = os.getenv("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")
 
 @app.post("/webhook/huggingface")
 async def chat_with_phi3(payload: ChatRequest):
